@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: center;
+    color: #515076;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ max-width: 1140px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #F7F7FA;
+    width: 340px;
+    height: 573px;
+    padding: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+.heading {
+color: #A5A3B9;
+font-size: 12px;font-style: normal;
+}
+.product-title {
+    color: #515076;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 27px;
+}
+.sub-title {
+    color: #515076;
+    font-size: 13px;
+    line-height: 18px;
+}
+.title-2 {
+    color: #515076;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.price {
+    color: #515076;
+    font-size: 25px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.value {
+    color: #515076;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
