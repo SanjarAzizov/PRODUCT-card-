@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
  
 }
 .title {
@@ -12,7 +12,7 @@ body {
     text-align: center;
     color: #515076;
 }
-.div-card {
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 color: #A5A3B9;
 font-size: 12px;font-style: normal;
 }
-.heading-h2 {
+.product-title {
     color: #515076;
     font-size: 20px;
     font-style: normal;
